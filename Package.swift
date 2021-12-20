@@ -1,11 +1,11 @@
-// swift-tools-version:5.4
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let pkg = Package(name: "PromiseKit")
 pkg.platforms = [
-    .iOS(.v11),
-    .watchOS(.v7)
+    .iOS(.v12),
+    .watchOS(.v8)
 ]
 pkg.swiftLanguageVersions = [.v5]
 
